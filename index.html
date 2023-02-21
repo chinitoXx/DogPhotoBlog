@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOG PHOTO BLOG</title>
+    <link rel="stylesheet" href="./css/style.css">
+  <!--  <style>
+    body{
+        text-align: center;
+    }
+
+    .section1{
+        background-image: url(./images/pexels-goochie-poochie-grooming-3299905.jpg);
+    }
+  </style> -->
+  </head>
+  <body>
+    <!--**************************************HERO SECTION**********************************-->
+    <h1>Dog Photo Blog</h1>
+    <!--****************************END OF HERO SECTION**************************-->
+
+    <!--**************************************MAIN SECTION**********************************-->
+    <main>
+      <!--ABOUT SECTION-->
+      <section class="section1">
+        <h2>Dog Photos</h2>
+        <p>
+          Click here to view more <a href="#" target="_blank">dog photos</a>
+        </p>
+        <a href="#">
+          <figure>
+            <img
+              src="./images/pexels-bill-emrich-230785.jpg"
+              alt="Dog Photo from pexels"
+              width="400px"
+              height="400px"
+            />
+          </figure>
+        </a>
+      </section>
+
+      <!--FEATURED SECTION-->
+      <section>
+        <h2>DOG LISTS</h2>
+        <h3>Things Dogs Love:</h3>
+        <ul>
+          <li>Seeing their human</li>
+          <li>Dog treats</li>
+          <li>Dog toys</li>
+        </ul>
+        <figure>
+          <img
+            src="./images/pexels-rubenstein-rebello-8121154.jpg"
+            alt="My Dogs loves cookie bones"
+            width="400px"
+            height="400px"
+          />
+          <figcaption>My dogs <em>loves</em> cookie bones</figcaption>
+        </figure>
+        <h3>Three things dog hate:</h3>
+        <ol>
+          <li>Cats</li>
+          <li>Taking a bath</li>
+          <li>Being</li>
+        </ol>
+        <figure>
+          <img
+            src="https://i.natgeofe.com/n/5f35194b-af37-4f45-a14d-60925b280986/NationalGeographic_2731043_4x3.jpg"
+            alt="External sources of a dog setting on the floor"
+            width="400px"
+            height="400px"
+          />
+          <figcaption>
+            Dogs <strong>love</strong> <em>setting</em> on the floor
+          </figcaption>
+        </figure>
+      </section>
+      <!--FORM SECTION-->
+      <section>
+        <h2>DOG FORM</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Is your dog is an indoor or an outdoor dog?</legend>
+            <label
+              ><input
+                id="indoor"
+                value="indoor"
+                type="radio"
+                name="indoor-outdoor"
+              />Indoor</label
+            >
+            <label
+              ><input
+                id="outdoor"
+                value="outdoor"
+                type="radio"
+                name="indoor-outdoor"
+              />Outdoor</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>What is your dog personality?</legend>
+            <input
+              id="loving"
+              value="loving"
+              type="checkbox"
+              name="personality"
+            />
+            <label for="loving">Loving</label>
+            <input id="lazy" value="lazy" type="checkbox" name="personality"/>
+            <label for="lazy">Lazy</label>
+            <input
+              id="energetic"
+              value="energetic"
+              type="checkbox"
+              name="personality"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
+
+          <input
+            type="text"
+            name="cuteDogs1"
+            placeholder="Cute dogs url"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!--****************************END OF HERO SECTION**************************-->
+
+    <!--**************************************FOOTER SECTION**********************************-->
+        <p>Copyright 2023</p>
+    <!--****************************END OF FOOTER SECTION**************************-->
+  </body>
+</html>
